@@ -24,15 +24,6 @@ npm install @yesimbot/plugin-mcp
 yarn add @yesimbot/plugin-mcp
 ```
 
-## Usage
-
-After installing a plugin, you need to register it in your YesImBot application. For example, to use the admin plugin, add the following code to your bot setup:
-
-```javascript
-const { AdminPlugin } = require('@yesimbot/plugin-admin');
-bot.use(AdminPlugin);
-```
-
 Refer to each plugin's documentation for specific configuration options and usage instructions.
 
 ## Contributing

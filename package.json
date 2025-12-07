@@ -1,0 +1,12 @@
+{
+  "name": "@root/plugins",
+  "packageManager": "yarn@4.5.3",
+  "workspaces": [
+    "packages/*",
+    "plugins/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.6.3",
+    "typescript": "^5.9.3"
+  }
+}

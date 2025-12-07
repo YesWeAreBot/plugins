@@ -1,0 +1,45 @@
+{
+  "name": "@yesimbot/koishi-plugin-pglite",
+  "description": "",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "@minatojs/sql-utils": "^5.5.0",
+    "cordis": "^3.18.1",
+    "cosmokit": "^1.8.0",
+    "koishi": "^4.18.9",
+    "koishi-plugin-yesimbot": "^3.0.3",
+    "minato": "^3.6.1"
+  },
+  "devDependencies": {
+    "@minatojs/sql-utils": "^5.5.0",
+    "cordis": "^3.18.1",
+    "cosmokit": "^1.8.0",
+    "koishi": "^4.18.9",
+    "koishi-plugin-yesimbot": "^3.0.3",
+    "minato": "^3.6.1"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.12"
+  },
+  "koishi": {
+    "description": {},
+    "service": {
+      "implements": [
+        "vector-driver"
+      ]
+    }
+  }
+}
